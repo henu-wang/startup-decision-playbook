@@ -1,428 +1,397 @@
 # Startup Decision Playbook
 
-A tactical playbook of **decision frameworks for startup founders** — from validating your idea to scaling, hiring, fundraising, pivoting, and knowing when to quit. Every major startup decision is covered with templates and checklists.
+> Battle-tested decision frameworks for startup founders — from pivot-or-persevere moments to hiring, fundraising, and pricing.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+Building a startup means making hundreds of consequential decisions with incomplete information. This playbook provides structured approaches to the decisions that founders face most often, drawn from patterns observed across successful and failed startups alike.
+
+---
 
 ## Table of Contents
 
-- [The Startup Decision Stack](#the-startup-decision-stack)
-- [Phase 1: Validation Decisions](#phase-1-validation-decisions)
-- [Phase 2: Building Decisions](#phase-2-building-decisions)
-- [Phase 3: Growth Decisions](#phase-3-growth-decisions)
-- [Phase 4: Scaling Decisions](#phase-4-scaling-decisions)
-- [The Hardest Decisions](#the-hardest-decisions)
-- [Decision Anti-Patterns](#decision-anti-patterns)
-- [Resources](#resources)
-- [License](#license)
+- [How to Use This Playbook](#how-to-use-this-playbook)
+- [Chapter 1: Pivot vs Persevere](#chapter-1-pivot-vs-persevere)
+  - [The Pivot Decision Framework](#the-pivot-decision-framework)
+  - [Types of Pivots](#types-of-pivots)
+  - [Pivot Signal Checklist](#pivot-signal-checklist)
+- [Chapter 2: Hiring Decisions](#chapter-2-hiring-decisions)
+  - [When to Hire](#when-to-hire)
+  - [The Hire-or-Not Scorecard](#the-hire-or-not-scorecard)
+  - [Early Hire Archetypes](#early-hire-archetypes)
+  - [Founder vs Hire Decision](#founder-vs-hire-decision)
+- [Chapter 3: Fundraising Timing](#chapter-3-fundraising-timing)
+  - [Should You Raise at All?](#should-you-raise-at-all)
+  - [The Fundraising Readiness Checklist](#the-fundraising-readiness-checklist)
+  - [Round Sizing Framework](#round-sizing-framework)
+  - [Investor Selection Criteria](#investor-selection-criteria)
+- [Chapter 4: Pricing Strategy](#chapter-4-pricing-strategy)
+  - [Pricing Models Comparison](#pricing-models-comparison)
+  - [The Pricing Decision Tree](#the-pricing-decision-tree)
+  - [When to Change Pricing](#when-to-change-pricing)
+- [Chapter 5: Market Entry Decisions](#chapter-5-market-entry-decisions)
+  - [Beachhead Market Selection](#beachhead-market-selection)
+  - [Go-to-Market Strategy Matrix](#go-to-market-strategy-matrix)
+- [Chapter 6: Product Scope Decisions](#chapter-6-product-scope-decisions)
+  - [Feature Prioritization Framework](#feature-prioritization-framework)
+  - [Build vs Buy vs Partner](#build-vs-buy-vs-partner)
+- [Chapter 7: Co-founder Decisions](#chapter-7-co-founder-decisions)
+- [Chapter 8: When to Shut Down](#chapter-8-when-to-shut-down)
+- [Decision Journal Template](#decision-journal-template)
+- [Further Resources](#further-resources)
 
 ---
 
-## The Startup Decision Stack
+## How to Use This Playbook
 
-Startup decisions cascade. Early decisions constrain later ones. The highest-leverage decisions are:
+Each chapter addresses a specific class of decisions. Within each chapter you will find:
 
-```
-                    Impact
-                      ↑
-    What to build     │  ●
-                      │
-    Who to hire       │     ●
-                      │
-    How to fund       │        ●
-                      │
-    When to pivot     │           ●
-                      │
-    When to quit      │              ●
-                      └────────────────→ Difficulty
-```
+- **Context**: When does this decision arise?
+- **Framework**: A structured approach to evaluating options
+- **Red Flags**: Warning signs that indicate a poor decision
+- **Templates**: Ready-to-use tools for your specific situation
 
-**Principle:** Make the biggest decisions the slowest. Make reversible decisions fast.
-
-| Decision Type | Reversibility | Speed |
-|--------------|:-:|:-:|
-| Product features | High | Fast (days) |
-| Marketing channels | High | Fast (weeks) |
-| Pricing model | Medium | Medium (months) |
-| Hiring | Medium | Medium (careful then fast) |
-| Co-founder choice | Low | Very slow |
-| Funding structure | Low | Very slow |
-| Market choice | Low | Very slow |
+Founders who maintain a clear set of operating principles make faster, more consistent decisions under pressure. If you have not yet defined your founding principles, consider using a tool like [KeepRule](https://keeprule.com) to document the core beliefs that guide your company.
 
 ---
 
-## Phase 1: Validation Decisions
+## Chapter 1: Pivot vs Persevere
 
-### Should I pursue this idea?
+### The Pivot Decision Framework
 
-```markdown
-## Idea Validation Scorecard
+The decision to pivot is one of the hardest a founder will face. Use this framework to separate signal from noise:
 
-| Criterion | Score (1-5) | Evidence |
-|-----------|:-:|---------|
-| **Problem severity** — How painful is this problem? | | |
-| **Frequency** — How often do people encounter it? | | |
-| **Willingness to pay** — Will they pay to solve it? | | |
-| **Market size** — Enough potential customers? | | |
-| **Founder-market fit** — Do I have unfair advantages here? | | |
-| **Trend alignment** — Is this getting more or less relevant? | | |
-| **Defensibility** — Can I build a moat? | | |
-| **Personal passion** — Can I endure 5-10 hard years on this? | | |
-| **Total** | **/40** | |
+**Step 1: Define Your Current Hypothesis**
 
-### Scoring
-- 32-40: Strong signal — proceed to validation
-- 24-31: Promising — needs more evidence
-- 16-23: Weak — significant concerns to address
-- Below 16: Move on to a different idea
+Write down in one sentence what you believe to be true about your market, customer, and solution:
+
+```
+We believe [customer segment] has [problem] and will pay [price] for [solution].
 ```
 
-### Customer Discovery Checklist
+**Step 2: Evaluate Evidence**
 
-```markdown
-## Customer Discovery: [Idea]
+| Evidence Type | Supporting | Neutral | Contradicting |
+|---------------|-----------|---------|---------------|
+| Customer interviews (n=__) | | | |
+| Usage data / retention | | | |
+| Revenue / willingness to pay | | | |
+| Market size validation | | | |
+| Competitive landscape | | | |
 
-### Interviews completed: ___ / 30 (minimum)
+**Step 3: Apply the Rule of Three**
 
-### Key questions asked:
-1. "Tell me about the last time you experienced [problem]"
-2. "What did you do about it?"
-3. "What do you currently use to solve this?"
-4. "What do you hate about your current solution?"
-5. "If you could wave a magic wand, what would change?"
-6. "Would you pay $X for a solution?" / "How much would you pay?"
+Pivot if three or more of these are true:
 
-### Patterns found:
-| Theme | Frequency | Quotes |
-|-------|:-:|--------|
-| | /30 | |
-| | /30 | |
-| | /30 | |
+1. Retention is flat or declining after 3+ months of effort
+2. You cannot articulate why customers choose you over alternatives
+3. Your best customers are not the segment you are targeting
+4. Revenue growth has stalled despite increased investment
+5. You dread working on the current product
+6. Every customer wants something different
 
-### Validation signals:
-- [ ] 5+ people described the same problem unprompted
-- [ ] 3+ people are actively spending money/time on workarounds
-- [ ] At least 1 person said "Can I buy this now?" or offered to pre-pay
-- [ ] The problem is getting worse, not better
+### Types of Pivots
 
-### Decision: [Proceed / Pivot idea / Abandon]
-```
-
-### MVP Scope Decision
-
-**The question:** What is the absolute minimum product that tests our core hypothesis?
-
-```markdown
-## MVP Definition: [Product]
-
-### Core hypothesis:
-"We believe that [target customer] will [action] because [reason]."
-
-### Features: Must-have vs. Nice-to-have
-| Feature | Must-have | Nice-to-have | Why? |
-|---------|:-:|:-:|------|
-| | ☐ | ☐ | |
-| | ☐ | ☐ | |
-| | ☐ | ☐ | |
-| | ☐ | ☐ | |
-
-### Rule: Ship with ONLY the must-haves.
-If you can't explain why a feature is essential to testing the hypothesis, cut it.
-
-### Success criteria:
-- Metric: ___
-- Target: ___
-- Timeline: ___
-```
-
----
-
-## Phase 2: Building Decisions
-
-### Hire or Outsource?
-
-| Factor | Hire Full-Time | Outsource/Contract |
-|--------|:-:|:-:|
-| Core competency | ✅ Always hire for core | |
-| Speed to start | Slower (recruiting) | ✅ Faster |
-| Long-term cost | Lower per hour | Higher per hour |
-| Quality control | ✅ More control | Less control |
-| Knowledge retention | ✅ Stays in company | Walks out the door |
-| Flexibility | Less (fixed cost) | ✅ More (variable cost) |
-
-**Rule of thumb:** Hire for your core differentiator. Outsource everything else until you reach product-market fit.
-
-### Co-founder Compatibility
-
-```markdown
-## Co-founder Assessment: [Name]
-
-### Complementary skills
-| Area | My Strength (1-5) | Their Strength (1-5) | Gap Covered? |
-|------|:-:|:-:|:-:|
-| Technical | | | |
-| Product/design | | | |
-| Sales/marketing | | | |
-| Operations | | | |
-| Finance/fundraising | | | |
-
-### Alignment check
-| Question | Aligned? | Notes |
-|----------|:-:|-------|
-| Vision for the company in 5 years | Yes/No | |
-| Risk tolerance | Yes/No | |
-| Work ethic expectations | Yes/No | |
-| Equity split comfort | Yes/No | |
-| Decision-making style | Yes/No | |
-| Exit preferences | Yes/No | |
-| Financial needs (runway) | Yes/No | |
-
-### Red flags
-- [ ] We've never disagreed (means someone isn't being honest)
-- [ ] We've never worked together before
-- [ ] They want co-founder title but not co-founder commitment
-- [ ] Different financial pressures (one needs salary, other doesn't)
-- [ ] Can't agree on equity
-```
-
-### Pricing Decision
-
-```markdown
-## Pricing Strategy
-
-### Cost-plus (floor)
-- Variable cost per unit: $___
-- Fixed costs allocated: $___
-- Minimum price to break even: $___
-
-### Value-based (ceiling)
-- Customer's current spend on alternatives: $___
-- Value our solution creates: $___
-- Willingness to pay (from interviews): $___
-
-### Competitive reference
-| Competitor | Price | What they include |
-|-----------|-------|-------------------|
-| | | |
-| | | |
-
-### Pricing decision
-| Model | Price | Rationale |
-|-------|-------|-----------|
-| Option A: ___ | $__ | |
-| Option B: ___ | $__ | |
-| Option C: ___ | $__ | |
-
-### Test plan
-Test pricing with: [A/B test / cohort test / direct ask]
-```
-
----
-
-## Phase 3: Growth Decisions
-
-### Product-Market Fit Assessment
-
-```markdown
-## PMF Assessment: [Product]
-
-### Sean Ellis Survey
-"How would you feel if you could no longer use [product]?"
-- Very disappointed: ___% (target: >40%)
-- Somewhat disappointed: ___%
-- Not disappointed: ___%
-
-### Leading Indicators
-| Indicator | Current | Target | PMF? |
-|-----------|---------|--------|:-:|
-| Organic growth rate | | >50% | |
-| Retention (Month 3) | | >40% | |
-| NPS | | >50 | |
-| Word-of-mouth referrals | | >25% of new users | |
-| Usage frequency | | Daily/Weekly active | |
-
-### Verdict
-- [ ] Strong PMF — invest in growth
-- [ ] Emerging PMF — iterate on retention
-- [ ] No PMF — iterate on product or pivot
-```
-
-### Channel Selection
-
-```markdown
-## Growth Channel Evaluation
-
-| Channel | CAC Estimate | Scalability (1-5) | Time to Results | Fit (1-5) |
-|---------|-------------|:-:|:-:|:-:|
-| Content/SEO | | | | |
-| Paid search (Google) | | | | |
-| Paid social (Meta) | | | | |
-| Sales (outbound) | | | | |
-| Partnerships | | | | |
-| Referral/viral | | | | |
-| Community | | | | |
-| PR/media | | | | |
-
-### Rule: Test 2-3 channels. Double down on the one that works. Ignore the rest.
-
-### Bull's-eye Framework
-1. Outer ring: Brainstorm all possible channels
-2. Middle ring: Select 3 most promising
-3. Inner ring: Test and identify THE channel
-```
-
----
-
-## Phase 4: Scaling Decisions
-
-### When to Raise Funding
-
-```markdown
-## Fundraising Decision
-
-### Do we need to raise?
-- [ ] Current runway: ___ months
-- [ ] Monthly burn: $___
-- [ ] Revenue covers ___% of burn
-- [ ] We have clear use of funds (not "figuring it out")
-- [ ] Raising now will accelerate a specific metric: ___
-
-### What stage are we?
-| Stage | Typical Round | What You Need to Show |
-|-------|-------------|----------------------|
-| Pre-seed | $100K-$500K | Team + idea + early validation |
-| Seed | $500K-$3M | MVP + early traction + PMF signal |
-| Series A | $3M-$15M | PMF + repeatable growth + unit economics |
-| Series B | $15M-$50M | Growth at scale + clear path to profitability |
-
-### Bootstrapping vs. Raising
-| Factor | Bootstrap | Raise |
-|--------|-----------|-------|
-| Control | ✅ 100% yours | Shared with investors |
-| Speed | Slower | ✅ Faster |
-| Risk | Lower (personal) | Higher (expectations) |
-| Upside | 100% of smaller outcome | Smaller % of bigger outcome |
-| Pressure | Customer-driven | ✅/❌ Investor-driven |
-```
-
-### Hiring Plan
-
-```markdown
-## Hiring Decision: Role [___]
-
-### Do we need this hire?
-- [ ] This role will directly impact our #1 metric
-- [ ] We can't achieve our 6-month goals without this role
-- [ ] We have enough runway to support this hire for 12+ months
-- [ ] This can't be done by existing team or contractors
-
-### Role scorecard
-| Must-Have Skill | Assessment Method |
-|----------------|-------------------|
-| | Interview Q / Test / Reference |
-| | |
-| | |
-
-### Culture fit criteria
-| Value | How We Test |
-|-------|-------------|
-| | |
-| | |
-
-### Compensation framework
-- Market rate range: $___-$___
-- Our offer: $___
-- Equity: ___% (vesting: 4 years, 1-year cliff)
-```
-
----
-
-## The Hardest Decisions
-
-### Pivot vs. Persevere
-
-```markdown
-## Pivot Analysis
-
-### Evidence for persevering:
-| Signal | Evidence |
-|--------|---------|
-| Some users love the product | |
-| Metrics are trending up (even slowly) | |
-| We haven't fully tested our hypothesis | |
-| Market conditions haven't changed | |
-
-### Evidence for pivoting:
-| Signal | Evidence |
-|--------|---------|
-| No meaningful growth in 3+ months | |
-| Users aren't retaining | |
-| CAC is unsustainably high | |
-| We've tested our core hypothesis and it's wrong | |
-| A better opportunity emerged from what we learned | |
-
-### Pivot options:
 | Pivot Type | Description | Example |
 |-----------|-------------|---------|
-| Zoom-in | One feature becomes the product | Instagram pivoted from Burbn |
-| Zoom-out | Product becomes one feature of larger product | |
-| Customer segment | Same product, different customers | |
-| Platform | App → platform or vice versa | |
-| Value capture | Change monetization | |
-| Channel | Change distribution method | |
-| Technology | Same problem, different technology | |
+| **Customer Segment** | Same product, different customer | Slack (gaming to enterprise) |
+| **Problem** | Same customer, different problem | Instagram (check-ins to photo sharing) |
+| **Solution** | Same problem, different approach | Netflix (DVD mail to streaming) |
+| **Channel** | Same product, different distribution | Many B2C to B2B2C pivots |
+| **Revenue Model** | Same product, different monetization | Ads to SaaS subscription |
+| **Technology** | Same outcome, different tech stack | On-premise to cloud |
 
-### Decision: [Persevere / Pivot to ___]
+### Pivot Signal Checklist
+
+Strong pivot signals (act on 3+):
+
+- [ ] Core metric has not improved in 8+ weeks despite focused effort
+- [ ] Users who do retain use a feature you consider secondary
+- [ ] Sales cycle is 3x longer than industry benchmark
+- [ ] Customer acquisition cost exceeds lifetime value by 2x+
+- [ ] You keep hearing the same objection and cannot solve it
+- [ ] Your team morale is sustained only by fundraising hope, not customer love
+
+---
+
+## Chapter 2: Hiring Decisions
+
+### When to Hire
+
+The default should be **not** to hire. Every person you add increases communication overhead and burn rate. Hire only when:
+
+| Criteria | Threshold |
+|----------|-----------|
+| Pain is acute | A specific person is working 60+ hours/week on one function for 4+ weeks |
+| Work is recurring | The tasks will exist for 6+ months (not a one-time project) |
+| ROI is clear | The hire will generate or save more than their fully loaded cost within 6 months |
+| Cash runway supports it | You have 12+ months of runway after the hire |
+
+### The Hire-or-Not Scorecard
+
+| Factor | Score (1-5) | Notes |
+|--------|-------------|-------|
+| Is this role critical to the next milestone? | __ | |
+| Can existing team members cover this? | __ | (5 = no, they cannot) |
+| Is the work well-defined enough to delegate? | __ | |
+| Do we have runway to absorb a slow ramp-up? | __ | |
+| Can we attract the right talent at our stage? | __ | |
+| **Total (out of 25)** | __ | Hire if 18+ |
+
+### Early Hire Archetypes
+
+| Hire Number | Typical Role | Why |
+|-------------|-------------|-----|
+| 1-3 | Engineers (full-stack) | Build the core product |
+| 4-5 | First non-technical: sales or customer success | Validate revenue and gather feedback |
+| 6-8 | Domain specialists | Depends on your market (ML engineer, designer, etc.) |
+| 9-10 | Operations: finance, HR, or office manager | Founder should not be doing payroll |
+
+### Founder vs Hire Decision
+
+| Situation | Do It Yourself | Hire |
+|-----------|---------------|------|
+| 0-10 customers | Always | Too early |
+| 10-50 customers | For learning | Consider for execution |
+| 50-200 customers | Transition out | Necessary |
+| 200+ customers | Bottleneck | Critical |
+
+---
+
+## Chapter 3: Fundraising Timing
+
+### Should You Raise at All?
+
+| Factor | Bootstrap | Raise Venture Capital |
+|--------|-----------|----------------------|
+| Market timing | Not winner-take-all | Winner-take-all dynamics |
+| Capital efficiency | Revenue covers costs quickly | Significant upfront investment needed |
+| Growth rate needed | 20-50% YoY is fine | Need 3x+ YoY to justify VC |
+| Founder goals | Lifestyle / long-term ownership | Scale fast / exit |
+| Unit economics | Positive from day one | Negative initially, positive at scale |
+
+### The Fundraising Readiness Checklist
+
+Before approaching investors, ensure you can check off at least 7 of 10:
+
+- [ ] Clear problem statement validated by 20+ customer conversations
+- [ ] Working product (not just a prototype)
+- [ ] At least 3 months of revenue data (or equivalent traction metric)
+- [ ] Month-over-month growth of 15%+ on a key metric
+- [ ] Understanding of unit economics (CAC, LTV, payback period)
+- [ ] Specific use of funds (not "general working capital")
+- [ ] 18-month financial model with assumptions documented
+- [ ] Target investor list of 30+ relevant investors
+- [ ] At least 2 warm introductions to target investors
+- [ ] Pitch deck that tells a compelling story in 12 slides or fewer
+
+### Round Sizing Framework
+
+| Round | Typical Range | Milestone to Achieve |
+|-------|--------------|---------------------|
+| Pre-Seed | $250K-$1M | Product-market fit signals |
+| Seed | $1M-$4M | Repeatable customer acquisition |
+| Series A | $5M-$15M | Scalable go-to-market engine |
+| Series B | $15M-$50M | Market leadership in core segment |
+
+**Rule of thumb:** Raise enough to reach the next fundable milestone + 6 months buffer. Raising too much dilutes unnecessarily; too little creates existential pressure.
+
+### Investor Selection Criteria
+
+| Criteria | Weight | Investor A | Investor B |
+|----------|--------|-----------|-----------|
+| Domain expertise in your market | 5 | __ | __ |
+| Useful network (customers, hires) | 4 | __ | __ |
+| Follow-on fund capacity | 3 | __ | __ |
+| Founder references (check 3+) | 5 | __ | __ |
+| Alignment on timeline and vision | 4 | __ | __ |
+| Board involvement style | 3 | __ | __ |
+| Brand signal to future investors | 2 | __ | __ |
+
+---
+
+## Chapter 4: Pricing Strategy
+
+### Pricing Models Comparison
+
+| Model | Best For | Pros | Cons |
+|-------|---------|------|------|
+| **Flat-rate subscription** | Simple products, SMB | Predictable, easy to sell | Leaves money on table for large customers |
+| **Per-seat** | Collaboration tools | Scales with org size | Discourages adoption within orgs |
+| **Usage-based** | Infrastructure, APIs | Aligns cost with value | Unpredictable revenue |
+| **Tiered** | Products with varied personas | Captures different willingness to pay | Complexity in packaging |
+| **Freemium** | Products with viral potential | Low barrier to entry | Conversion rates typically 2-5% |
+| **Enterprise custom** | Complex B2B | Maximizes deal size | Slow sales cycles |
+
+### The Pricing Decision Tree
+
+```
+Is your product used by individuals or teams?
+|
++-- Individuals
+|   +-- Is value proportional to usage? --> Usage-based
+|   +-- Is value roughly equal per user? --> Flat-rate or tiered
+|
++-- Teams
+    +-- Does value scale with team size? --> Per-seat
+    +-- Does value scale with usage volume? --> Usage-based
+    +-- Is value primarily for the org, not individuals? --> Tiered or enterprise
 ```
 
-### When to Shut Down
+### When to Change Pricing
 
-**Honest assessment signals:**
+**Raise prices when:**
+- Churn is below 3% monthly and customers say your product is a "no-brainer"
+- You have not raised prices in 12+ months
+- Customers negotiate less than 10% of the time
+- Your product has significantly more features than at last pricing
 
-- [ ] Runway < 3 months with no path to revenue or funding
-- [ ] Founders are burnt out and no longer believe in the mission
-- [ ] Market has fundamentally shifted against you
-- [ ] After 12+ months, no evidence of product-market fit
-- [ ] Key team members are leaving and can't be replaced
-- [ ] The opportunity cost of continuing exceeds the potential upside
-
-> "If you're going to fail, fail fast." — But also: don't quit on a bad day. Make shutdown decisions when you're calm and have data, not when you're exhausted.
-
----
-
-## Decision Anti-Patterns
-
-| Anti-Pattern | What It Looks Like | The Fix |
-|-------------|-------------------|---------|
-| **Building in a vacuum** | No customer conversations | Talk to 30 customers before building |
-| **Analysis paralysis** | Spreadsheets instead of shipping | Set decision deadlines |
-| **Hippo (Highest Paid Person's Opinion)** | The founder's hunch overrides data | Run experiments |
-| **Premature scaling** | Hiring/spending before PMF | Validate first, scale second |
-| **Sunk cost trap** | "We've invested too much to quit" | Evaluate forward-looking ROI only |
-| **Feature factory** | Building features instead of solving problems | Return to customer problems |
-| **Vanity metrics** | Celebrating downloads, page views | Focus on revenue, retention, NPS |
-| **Consensus seeking** | Waiting for everyone to agree | Disagree and commit |
+**Lower prices when:**
+- Win rate on proposals is below 20%
+- Sales cycles exceed industry benchmark by 2x
+- Customers consistently cite price as the primary objection
+- You are optimizing for market share in a winner-take-all market
 
 ---
 
-## Resources
+## Chapter 5: Market Entry Decisions
 
-**Books:**
-- *The Lean Startup* — Eric Ries
-- *Zero to One* — Peter Thiel
-- *The Hard Thing About Hard Things* — Ben Horowitz
-- *Crossing the Chasm* — Geoffrey Moore
-- *Blitzscaling* — Reid Hoffman
+### Beachhead Market Selection
 
-**Decision scenarios for founders:**
-For real-world startup scenarios and decision principles from the world's most successful founders and investors, explore [KeepRule Scenarios](https://keeprule.com/en/scenarios) — interactive decision exercises grounded in battle-tested wisdom.
+Score each potential segment:
+
+| Criteria | Segment A | Segment B | Segment C |
+|----------|----------|----------|----------|
+| Urgency of the problem (1-10) | __ | __ | __ |
+| Willingness to pay (1-10) | __ | __ | __ |
+| Ease of reaching them (1-10) | __ | __ | __ |
+| Market size ($) | __ | __ | __ |
+| Competitive intensity (1-10, 10=low) | __ | __ | __ |
+| Adjacent market potential | __ | __ | __ |
+
+Choose the segment with the highest total score. Dominate it before expanding.
+
+### Go-to-Market Strategy Matrix
+
+| ACV (Annual Contract Value) | Strategy | Sales Motion |
+|----------------------------|----------|-------------|
+| < $1K | Self-serve | Product-led growth |
+| $1K-$10K | Inside sales | Demo, trial, close |
+| $10K-$100K | Field sales | Multi-stakeholder, consultative |
+| > $100K | Enterprise sales | Long cycle, POC, procurement |
+
+---
+
+## Chapter 6: Product Scope Decisions
+
+### Feature Prioritization Framework
+
+Use the RICE framework:
+
+| Feature | Reach | Impact (1-3) | Confidence (%) | Effort (person-weeks) | RICE Score |
+|---------|-------|-------------|---------------|----------------------|------------|
+| Feature A | __ | __ | __ | __ | __ |
+| Feature B | __ | __ | __ | __ | __ |
+| Feature C | __ | __ | __ | __ | __ |
+
+```
+RICE = (Reach x Impact x Confidence) / Effort
+```
+
+### Build vs Buy vs Partner
+
+| Factor | Build | Buy (SaaS) | Partner |
+|--------|-------|-----------|---------|
+| Time to market | Slow | Fast | Medium |
+| Customization | Full | Limited | Negotiable |
+| Ongoing cost | Engineering time | Subscription | Revenue share |
+| Strategic value | High if core | Low | Medium |
+| Best for | Core differentiators | Commodity functions | Distribution |
+
+---
+
+## Chapter 7: Co-founder Decisions
+
+### Co-founder Compatibility Checklist
+
+Before committing, align on these:
+
+- [ ] Vision: Where should the company be in 5 years?
+- [ ] Values: What is more important — growth or profitability? Speed or quality?
+- [ ] Roles: Who owns what? (Product, engineering, sales, fundraising)
+- [ ] Commitment: Full-time? When? What if one person wants to leave?
+- [ ] Equity: Agreed split with 4-year vesting and 1-year cliff
+- [ ] Conflict resolution: How do you make decisions when you disagree?
+- [ ] Financial runway: How long can each person go without salary?
+- [ ] Work style: Remote/office? Hours? Communication preferences?
+
+### Red Flags in Co-founder Relationships
+
+- You have never disagreed about anything (avoidance, not alignment)
+- One person dominates all decisions
+- Equity discussions keep getting postponed
+- You have different definitions of "success"
+- You have not worked together on anything before
+
+---
+
+## Chapter 8: When to Shut Down
+
+The decision to shut down is the hardest. Consider it when:
+
+| Signal | Threshold |
+|--------|-----------|
+| Runway remaining | < 3 months with no path to revenue or funding |
+| Founder motivation | All co-founders have lost conviction for 2+ months |
+| Market feedback | 50+ customer conversations yield no consistent demand signal |
+| Retention | Month-1 retention below 10% after 3+ iterations |
+| Team | Key team members are leaving and cannot be replaced |
+
+**Shutting down is not failure.** It is a decision to redeploy your most valuable resource — your time — to something with a better chance of success.
+
+---
+
+## Decision Journal Template
+
+Keep a log of major decisions for future learning:
+
+```markdown
+# Decision: [Title]
+**Date:** YYYY-MM-DD
+**Decision maker(s):** ___
+**Context:** What situation prompted this decision?
+**Options considered:**
+1. ___
+2. ___
+3. ___
+**Decision:** What did we choose?
+**Reasoning:** Why? What were the key factors?
+**Expected outcome:** What do we expect to happen?
+**Review date:** When will we evaluate this decision?
+
+---
+## Review (filled in later)
+**Actual outcome:** What happened?
+**What we learned:** ___
+**Would we decide differently?** ___
+```
+
+---
+
+## Further Resources
+
+- [The Hard Thing About Hard Things](https://www.bhorowitz.com/) — Ben Horowitz
+- [Zero to One](https://www.penguinrandomhouse.com/books/234693/zero-to-one-by-peter-thiel/) — Peter Thiel
+- [The Lean Startup](http://theleanstartup.com/) — Eric Ries
+- [KeepRule](https://keeprule.com) — Establish and maintain the operating principles that keep your startup decision-making consistent as you scale
+- [Y Combinator Library](https://www.ycombinator.com/library) — Startup advice from YC partners
 
 ---
 
 ## Contributing
 
-Founder with a decision framework to share? PRs welcome.
-
----
+If you have frameworks that have worked for you as a founder, please open a pull request. Real-world experience is the most valuable input.
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
